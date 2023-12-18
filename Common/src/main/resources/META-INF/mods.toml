@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Bouncier%20Beds"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Bouncier%20Beds"
 logoFile="icon.png"
 
 [[mods]]
 modId="bouncierbeds"
-version="2.2"
+version="2.3"
 displayName="Bouncier Beds"
-displayURL="https://curseforge.com/minecraft/mc-mods/bouncier-beds"
+displayURL="https://serilum.com/mod/bouncier-beds"
 authors="Rick South"
 description='''Makes players bounce configurably higher on beds and prevents fall damage on them.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.bouncierbeds]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.bouncierbeds]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.1]"
     ordering="NONE"
