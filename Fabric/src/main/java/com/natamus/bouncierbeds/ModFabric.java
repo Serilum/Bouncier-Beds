@@ -3,6 +3,7 @@ package com.natamus.bouncierbeds;
 import com.natamus.bouncierbeds.events.BouncyBedEvent;
 import com.natamus.bouncierbeds.util.Reference;
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.entity.Entity;
@@ -12,6 +13,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
