@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeBouncyBedEvent.registerEventsInBus();
+		ForgeBouncyBedEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

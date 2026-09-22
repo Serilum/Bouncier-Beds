@@ -24,7 +24,7 @@ public class BouncyBedEvent {
 		}
 		
 		player.setDeltaMovement(player.getDeltaMovement().add(0.0f, (float)ConfigHandler.bedBounciness, 0.0f));
-		player.hurtMarked = true;
+		player.syncVelocity = true;
 	}
 	
 	public static int onFall(Level world, Entity entity, double d, float g) {
