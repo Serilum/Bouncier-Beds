@@ -1,8 +1,8 @@
-package com.natamus.bouncierbeds;
+package com.serilum.bouncierbeds;
 
-import com.natamus.bouncierbeds.forge.config.IntegrateForgeConfig;
-import com.natamus.bouncierbeds.forge.events.ForgeBouncyBedEvent;
-import com.natamus.bouncierbeds.util.Reference;
+import com.serilum.bouncierbeds.forge.config.IntegrateForgeConfig;
+import com.serilum.bouncierbeds.forge.events.ForgeBouncyBedEvent;
+import com.serilum.bouncierbeds.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeBouncyBedEvent.registerEventsInBus();
+		ForgeBouncyBedEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

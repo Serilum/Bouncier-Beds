@@ -1,6 +1,6 @@
-package com.natamus.bouncierbeds.neoforge.events;
+package com.serilum.bouncierbeds.neoforge.events;
 
-import com.natamus.bouncierbeds.events.BouncyBedEvent;
+import com.serilum.bouncierbeds.events.BouncyBedEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.neoforged.neoforge.event.entity.living.LivingEvent.LivingJumpEvent;

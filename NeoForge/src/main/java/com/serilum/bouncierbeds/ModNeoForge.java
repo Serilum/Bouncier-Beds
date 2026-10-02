@@ -1,8 +1,8 @@
-package com.natamus.bouncierbeds;
+package com.serilum.bouncierbeds;
 
-import com.natamus.bouncierbeds.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.bouncierbeds.neoforge.events.NeoForgeBouncyBedEvent;
-import com.natamus.bouncierbeds.util.Reference;
+import com.serilum.bouncierbeds.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.bouncierbeds.neoforge.events.NeoForgeBouncyBedEvent;
+import com.serilum.bouncierbeds.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.neoforged.neoforge.common.NeoForge;
