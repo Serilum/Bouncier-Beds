@@ -1,6 +1,6 @@
-package com.natamus.bouncierbeds.neoforge.config;
+package com.serilum.bouncierbeds.neoforge.config;
 
-import com.natamus.bouncierbeds.util.Reference;
+import com.serilum.bouncierbeds.util.Reference;
 import com.natamus.collective.config.DuskConfig;
 import net.minecraft.client.gui.screens.Screen;
 import net.neoforged.fml.ModContainer;

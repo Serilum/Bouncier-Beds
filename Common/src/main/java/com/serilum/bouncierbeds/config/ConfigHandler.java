@@ -1,7 +1,7 @@
-package com.natamus.bouncierbeds.config;
+package com.serilum.bouncierbeds.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.bouncierbeds.util.Reference;
+import com.serilum.bouncierbeds.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
