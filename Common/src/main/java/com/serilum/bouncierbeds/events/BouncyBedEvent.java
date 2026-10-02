@@ -1,6 +1,6 @@
-package com.natamus.bouncierbeds.events;
+package com.serilum.bouncierbeds.events;
 
-import com.natamus.bouncierbeds.config.ConfigHandler;
+import com.serilum.bouncierbeds.config.ConfigHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;

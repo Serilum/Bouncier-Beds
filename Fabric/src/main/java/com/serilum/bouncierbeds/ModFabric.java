@@ -1,7 +1,7 @@
-package com.natamus.bouncierbeds;
+package com.serilum.bouncierbeds;
 
-import com.natamus.bouncierbeds.events.BouncyBedEvent;
-import com.natamus.bouncierbeds.util.Reference;
+import com.serilum.bouncierbeds.events.BouncyBedEvent;
+import com.serilum.bouncierbeds.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;

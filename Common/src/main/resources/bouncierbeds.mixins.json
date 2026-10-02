@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.bouncierbeds.mixin",
+  "package": "com.serilum.bouncierbeds.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
 

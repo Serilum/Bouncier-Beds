@@ -1,6 +1,6 @@
-package com.natamus.bouncierbeds;
+package com.serilum.bouncierbeds;
 
-import com.natamus.bouncierbeds.config.ConfigHandler;
+import com.serilum.bouncierbeds.config.ConfigHandler;
 
 public class ModCommon {
 

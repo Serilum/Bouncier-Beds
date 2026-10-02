@@ -1,13 +1,13 @@
-package com.natamus.bouncierbeds.forge.events;
+package com.serilum.bouncierbeds.neoforge.events;
 
-import com.natamus.bouncierbeds.events.BouncyBedEvent;
+import com.serilum.bouncierbeds.events.BouncyBedEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraftforge.event.entity.living.LivingEvent.LivingJumpEvent;
-import net.minecraftforge.event.entity.living.LivingFallEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.neoforged.neoforge.event.entity.living.LivingEvent.LivingJumpEvent;
+import net.neoforged.neoforge.event.entity.living.LivingFallEvent;
+import net.neoforged.bus.api.SubscribeEvent;
 
-public class ForgeBouncyBedEvent {
+public class NeoForgeBouncyBedEvent {
 	@SubscribeEvent
 	public static void onLivingJump(LivingJumpEvent e) {
 		LivingEntity livingEntity = e.getEntity();
