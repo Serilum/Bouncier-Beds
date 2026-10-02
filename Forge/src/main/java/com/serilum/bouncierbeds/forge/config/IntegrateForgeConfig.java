@@ -1,7 +1,7 @@
-package com.natamus.bouncierbeds.forge.config;
+package com.serilum.bouncierbeds.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.bouncierbeds.util.Reference;
+import com.serilum.bouncierbeds.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
